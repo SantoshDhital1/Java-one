@@ -1,18 +1,5 @@
 import java.util.Scanner;
 public class MaxNumInArray_26 {
-    /*public static int getLargest(int []a, int n) {
-        int temp;
-        for (int i=0; i<n; i++) {
-            for (int j=i+1; j<n; j++) {
-                if (a[i] > a[j]) {
-                    temp = a[i];
-                    a[i] = a[j];
-                    a[j] = temp;
-                }
-            }
-        }
-        return a[n-1];
-    }*/
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int large;

@@ -1,9 +1,8 @@
 import java.util.Scanner;
 public class RepeatNum_30 {
     public static void main(String[] args) {
-//        int count=0;
-          Scanner sc = new Scanner(System.in);
-          System.out.println("Enter the number of elements you want:");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of elements you want:");
         int n = sc.nextInt();
         int arr[] = new int[n];
         System.out.println("Enter the elements of the array:");
